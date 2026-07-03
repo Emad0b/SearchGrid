@@ -1,0 +1,25 @@
+- name: London
+  region: Greater London
+  latitude: 51.5072
+  longitude: -0.1276
+  notes: Highest density of AI, software, finance, and startup roles; highest rent and transport costs.
+- name: Ilford
+  region: Greater London / Redbridge
+  latitude: 51.5578
+  longitude: 0.0837
+  notes: East London commuter hub (New North Road area); Elizabeth line and TfL rail to Liverpool Street; lower rent than inner London.
+- name: Watford
+  region: Hertfordshire
+  latitude: 51.6565
+  longitude: -0.3903
+  notes: Short London commute and lower-cost room market than inner London.
+- name: Slough
+  region: Berkshire
+  latitude: 51.5105
+  longitude: -0.5950
+  notes: Elizabeth line access and proximity to West London tech employers.
+- name: Luton
+  region: Bedfordshire
+  latitude: 51.8787
+  longitude: -0.4200
+  notes: Lower rents than London with rail commute options.
