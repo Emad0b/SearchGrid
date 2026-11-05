@@ -9,6 +9,11 @@
 .cache/
 *.log
 
+# Confidential personal finances — never commit
+Banking/
+banking/
+*.pdf
+
 # Python
 __pycache__/
 *.py[cod]

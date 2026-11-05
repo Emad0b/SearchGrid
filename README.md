@@ -10,6 +10,7 @@ An interactive Streamlit dashboard that helps a CS/AI graduate compare living op
 - **Commute to London tech hubs** — public transport and **bicycle** estimates to Shoreditch/Old Street, King's Cross, Liverpool Street, Canary Wharf, and more, using TfL Journey Planner and OpenRouteService with distance-based fallbacks.
 - **Career signals** — entry-level CS/AI salary ranges, demand scores, and live job listings per city, including **AWS Solution Architect** roles.
 - **Monthly Budget page** — build a custom budget (rent, utilities, groceries, subscriptions, commute, custom categories) that syncs into the research inputs.
+- **Spending Analysis page** — reads local HSBC PDF statements from a private `Banking/` folder and shows spend per day/week/month, category breakdowns, and with/without filters for utilities, shopping, and more.
 - **Weighted ranking** — adjustable weights for affordability, budget fit, commute, cycling, career, and source confidence.
 - **Accuracy scoring** — results are tiered by verification level; pasting individual listing URLs enables a higher-accuracy verification path.
 - **Map view** — pins for the best option in each home location.
@@ -91,6 +92,7 @@ Each listing is scored 0–100 from weighted components:
 
 - API keys are read from `.env`, which is excluded by `.gitignore`. Never commit `.env`.
 - The local `.cache/` directory (raw web search and LLM responses) is also excluded.
+- Put bank statement PDFs only in `Banking/` — that folder and all `*.pdf` files are gitignored and must never be uploaded.
 - Personal defaults (cash on hand, budgets) are entered in the UI at runtime and are not persisted to the repo.
 
 ## License
