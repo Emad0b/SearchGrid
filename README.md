@@ -1,5 +1,7 @@
 # SearchGrid — Local Living & Commute Dashboard
 
+SearchGrid helps you compare places to live in and around London. Use it to shortlist rental listings by budget and commute, then check the original listings and travel information before deciding.
+
 An interactive Streamlit dashboard that helps a CS/AI graduate compare living options in **London and nearby commuter towns** (Ilford, Watford, Slough, Luton). It combines live public web search, listing pages, commute APIs, and optional LLM extraction to rank accommodation by affordability, commute, career opportunity, and data confidence.
 
 > Research tool only — always verify listings, bills, tenancy terms, fares, and salaries at the original source before making decisions.
